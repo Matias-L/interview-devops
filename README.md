@@ -34,6 +34,8 @@ Podemos desplegar la aplicación en un droplet de DigitalOcean siguiendo los pas
 7. Clonar el repositorio en el directorio deseado.
 8. Ubicarse dentro del directorio del repositorio, donde se encuentra el archivo docker-compose.yml. Para realizar el primer despliegue de la aplicación ejecutamos **docker-compose up --build** De aquí en mas no será necesario el flag *--build* 
 
+Habiendo desplegado la aplicación podemos ingresar desde nuestro navegador ingresando la ip públida de nuestro droplet, y puerto 3000 para frontend y 8000 para backend
+
 ISSUES: 
 * Al presionar el boton de solicitud de préstamos, no se puede conectar al host endpoint.test.com.ar:7001
 * Se ha modificado frontend/src/index.js de forma tal que no tenemos error CORS. Sin embargo, al consultar la API se recibe un error 401 (no autorizado)

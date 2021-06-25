@@ -28,7 +28,7 @@ services:
         - DB_PASS=example
         - DB_HOST=db
         - DB_PORT=5432
-        - SECRET_KEY='clave'
+        - SECRET_KEY='mxWcEKrrsrYkdvOqX7mdALlmZLtJgQeySXMAJ8DSZ1DegNpKz5GFzUfKDgiHpwHl'
   command: python manage.py runserver 0.0.0.0:8000
   volumes:
         - ./backend:/backend
